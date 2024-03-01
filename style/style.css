@@ -1,0 +1,38 @@
+.header-img {
+    display: flex;
+    justify-content: flex-start;
+    height: 65vh; 
+    overflow: hidden; 
+    background-image: url(../media/img/DierenHeader.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+  }
+
+  .wrapper {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    height: 10vh;
+  }
+
+ .wrapper > * {
+    position: absolute;
+ }
+
+ #filler {
+    width: 70%;
+    height: inherit;
+ }
+
+  .container {
+    width: 30%;
+  }
+  
+  .button {
+
+    cursor: pointer;
+  }
+  
+  
