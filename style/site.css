@@ -1,5 +1,65 @@
 body {
     overflow-x: hidden;
     margin: 0;
+<<<<<<< Updated upstream
     font-family: Gill Sans, sans-serif;
 }
+=======
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 2  ;
+    height: 5vh;
+    box-shadow: 1px -5px 20px black;
+    background-color: rgb(226, 223, 223);
+    width: 100vw;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#filler {
+    width: 80%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+.header_bttn {
+    border-radius: 10px;
+    height: 3vh;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log {
+    background-color: rgb(232, 232, 53);
+}
+
+#don {
+    background-color: rgb(45, 119, 45);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+>>>>>>> Stashed changes
