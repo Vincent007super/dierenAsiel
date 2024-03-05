@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.photo {
+    position: relative;
+    margin: 20px;
+    width: 700px;
+    height: 500px; 
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay1 {
+    background-color: rgba(212, 172, 149, 0.5);
+}
+
+.overlay2 {
+    background-color: rgba(198,147,203, 0.5);
+}
+.name1 {
+    position: absolute;
+    top: 240px; 
+    left: 410px;
+    transform: translateX(-50%);
+    z-index: 1; 
+    color:  rgb(212, 172, 149);
+    font-size: 27px; 
+}
+.name2 {
+    position: absolute;
+    top: 240px; 
+    right: 180px;
+    transform: translateX(-50%);
+    z-index: 1; 
+    color: rgb(198,147,203);
+    font-size: 27px; 
+}
+
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+.text2 {
+    color: white;
+    font-size: 20px;
+}
+
+.photo:hover .overlay {
+    opacity: 0.5;
+}
+.photo2:hover .overlay {
+    opacity: 0.5;
+}
+
