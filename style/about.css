@@ -1,15 +1,43 @@
-.container {
+.header-img {
     display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 100vh;
-}
+    justify-content: flex-start;
+    height: 65vh; 
+    overflow: hidden; 
+    background-image: url(../media/img/Dierenasiel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+  }
+  .container-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo {
+    width: 120px; 
+    height: auto; 
+  }
+
+  
+  .wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper3 {
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+  }
 
 .photo {
     position: relative;
     margin: 20px;
-    width: 700px;
-    height: 500px; 
+    width: 800px;
+    height: 700px; 
     overflow: hidden;
 }
 
@@ -44,25 +72,6 @@
 .overlay2 {
     background-color: rgba(198,147,203, 0.5);
 }
-.name1 {
-    position: absolute;
-    top: 240px; 
-    left: 410px;
-    transform: translateX(-50%);
-    z-index: 1; 
-    color:  rgb(212, 172, 149);
-    font-size: 27px; 
-}
-.name2 {
-    position: absolute;
-    top: 240px; 
-    right: 180px;
-    transform: translateX(-50%);
-    z-index: 1; 
-    color: rgb(198,147,203);
-    font-size: 27px; 
-}
-
 
 .text {
     color: white;
@@ -79,4 +88,10 @@
 .photo2:hover .overlay {
     opacity: 0.5;
 }
+.name1{
+    color:rgba(212, 172, 149, 0.5); 
+}
 
+.name2{
+    color:rgba(198,147,203, 0.5);; ;
+}
