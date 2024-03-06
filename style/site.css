@@ -18,6 +18,10 @@ header {
     width: 100vw;
 }
 
+.header_img {
+    user-select: none;
+}
+
 .wrapper {
     height: 100%;
     width: 100%;
@@ -30,11 +34,13 @@ header {
 
 #logo_header {
     width: 10%;
+    user-select: none;
 }
 
 #logo {
     height: 90%;
     margin: 3px;
+    user-select: none;
 }
 
 #buttons {
