@@ -81,6 +81,49 @@ a {
     color: inherit;
 }
 
+/*Footer*/
+footer {
+    width: 100vw;
+    height: 25vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    background-color: rgb(221, 216, 216);
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+.filler3 {
+    width: 12.5%;
+}
+
+.footer_cont {
+    width: 25%;
+    background-color: red;
+}
+
+#footer_main1 {
+
+}
+
+#footer_main2 {
+    
+}
+
+#footer_main3 {
+    
+}
+
+#cert {
+    height: 20%;
+    width: 100%;
+}
+
 /*Donate code*/
 #donate {
     position: fixed;
