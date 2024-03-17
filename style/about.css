@@ -96,3 +96,24 @@
 .name2{
     color:rgba(198,147,203, 0.5);; ;
 }
+
+/* media query's */
+
+@media only screen and (max-width: 1600px)  {
+    .wrapper3 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 820px)  {
+    .photo {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 440px)  {
+    .photo {
+        width: 90%;
+        height: 90%;
+    }
+}
