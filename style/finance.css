@@ -1,0 +1,17 @@
+.header_img {
+    background-image: url(../media/img/finance.jpg);
+    font-size: 5.5vw;
+    text-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2vh;
+}
+
+#aantal {
+    color: black;
+    font-size: 3.3vw;
+}
