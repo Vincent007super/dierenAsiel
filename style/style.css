@@ -1,14 +1,6 @@
   .header_img {
-    display: flex;
-    justify-content: flex-start;
-    height: 65vh;
-    overflow: hidden;
     background-image: url(../media/img/DierenHeader.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    flex-direction: column;
+    display: block;
   }
 
   .text-container {

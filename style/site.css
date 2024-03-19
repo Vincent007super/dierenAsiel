@@ -21,6 +21,15 @@ header {
 
 .header_img {
     user-select: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    display: flex;
+    height: 65vh; 
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
