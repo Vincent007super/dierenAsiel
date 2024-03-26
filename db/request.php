@@ -8,21 +8,25 @@
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     if ($conn->connect_error) {
-        die("". $conn->connect_error);
+        echo "skill issue.";
 }   
 
-echo "Connected succesfully";
+if ($conn->connect_succes) {
+    echo "Connected succesfully";
+}
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
+    $Voornaam = $_POST["Voornaam"];
+    $tussenvoegsel = $_POST["tussenvoegsel"];
+    $Achternaam = $_POST["Achternaam"];
+    $Adres = $_POST["Adres"];
+    $Telefoonnummer = $_POST["Telefoonnummer"];
     $email = $_POST["email"];
-    $message = $_POST["message"];
+    $legimatieSoort = $_POST["legimatieSoort"];
 
     // Do something with the form data (e.g., save to a database, send an email, etc.)
     // For this example, let's just print the submitted data
-    echo "Name: $name <br>";
-    echo "Email: $email <br>";
-    echo "Message: $message <br>";
+    echo "Voornaam: $Voornaam <br>";
+    echo "tussenvoegsel: $tussenvoegsel <br>";
 }
-
-?>

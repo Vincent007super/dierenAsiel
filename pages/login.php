@@ -47,22 +47,24 @@
 
     <body>
         <form action="../db/request.php" method="POST">
-            <label for="Voornaam"></label>
-            <input type="text" name="Voornaam" id="Voornaam" required placeholder="Voornaam">
-            <label for="Tussenvoegsel"></label>
-            <input type="text" name="Tussenvoegsel" id="Tussenvoegsel" required placeholder="Tussenvoegsel">
-            <label for="Achternaam"></label>
-            <input type="text" name="Achternaam" id="Achternaam" placeholder="Achternaam" required>
-            <label for="Adres"></label>
-            <input type="text" name="Adres" id="Adres" required placeholder="Sir winston urkilaan 292">
-            <label for="Telefoonnummer"></label>
-            <input type="tel" name="Telefoonnummer" id="Telefoonnummer" required placeholder="061234567">
-            <label for="Mail-Adres"></label>
-            <input type="email" name="Mail-Adres" required placeholder="yourmail@gmail.com" id="Mail-Adres">
-            <label for="Voornaam"></label>
-            <input type="text" name="Voornaam" id="Voornaam" required placeholder="Voornaam">
-            <label for="Voornaam"></label>
-            <input type="number" name="Voornaam" id="Voornaam" required placeholder="Voornaam">
+            <label for="voornaam"></label>
+            <input type="text" name="voornaam" id="voornaam" required placeholder="Jan">
+            <label for="tussenvoegsel"></label>
+            <input type="text" name="tussenvoegsel" placeholder="van der" id="tussenvoegsel">
+            <label for="achternaam"></label>
+            <input type="text" name="achternaam" id="achternaam" required placeholder="Sloot">
+            <label for="mailAdres"></label>
+            <input type="email" name="mailAdres" id="mailAdres" required placeholder="yourmail@gmail.com">
+            <label for="adres"></label>
+            <input type="text" name="adres" id="adres" required placeholder="Afrikaweg 25">
+            <label for="telefoonNummer"></label>
+            <input type="tel" name="telefoonNummer" id="telefoonNummer" required placeholder="+03 52683893">
+            <label for="legitimatieSoort"></label>
+            <input type="checkbox" name="legitimatieSoort" id="legimatieSoort" required placeholder="Paspoort of ID?">
+            <label for="legimatieNummer"></label>
+            <input type="number" name="legimatieNummer" id="legimatieNummer" required placeholder="162748593" maxlength="9" minlength="9">
+            <label for="wachtwoord"></label>
+            <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="Ik_ben_veilig123" autocomplete="on" minlength="4" maxlength="15">
             <input type="submit" value="Submit">
         </form>
 
