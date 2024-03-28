@@ -11,10 +11,7 @@
         echo "skill issue.";
 }   
 
-if ($conn->connect_succes) {
-    echo "Connected succesfully";
-}
-
+$query = "SHOW * FROM 'Dierenkaart'";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Voornaam = $_POST["Voornaam"];

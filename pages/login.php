@@ -45,8 +45,8 @@
     </div>
     </div>
 
-    <body>
-        <form action="../db/request.php" method="POST">
+        <a href="../db/test.php">klik op mij ofzo</a>
+        <!-- <form action="../db/request.php" method="POST">
             <label for="voornaam"></label>
             <input type="text" name="voornaam" id="voornaam" required placeholder="Jan">
             <label for="tussenvoegsel"></label>
@@ -62,11 +62,13 @@
             <label for="legitimatieSoort"></label>
             <input type="checkbox" name="legitimatieSoort" id="legimatieSoort" required placeholder="Paspoort of ID?">
             <label for="legimatieNummer"></label>
-            <input type="number" name="legimatieNummer" id="legimatieNummer" required placeholder="162748593" maxlength="9" minlength="9">
+            <input type="number" name="legimatieNummer" id="legimatieNummer" required placeholder="162748593"
+                maxlength="9" minlength="9">
             <label for="wachtwoord"></label>
-            <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="Ik_ben_veilig123" autocomplete="on" minlength="4" maxlength="15">
+            <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="Ik_ben_veilig123"
+                autocomplete="on" minlength="4" maxlength="15">
             <input type="submit" value="Submit">
-        </form>
+        </form> -->
 
         <body>
 
