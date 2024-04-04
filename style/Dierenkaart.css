@@ -151,6 +151,28 @@
   .tile:nth-child(5):hover {
     box-shadow: 0 0 20px 10px rgba(255, 0, 255, 0.5);
   }
+  
+  /*Inhoud pagina*/
+
+  main {
+    margin-top: 3vh;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 2.5vh;
+  }
+
+  #menu {
+    width: 30%;
+    background-color: rebeccapurple;
+    height: 900px;
+  }
+
+  .wrapper2 {
+    background-color: burlywood;
+    width: 100%;
+    height: 900px;
+  }
 
   /*Media Qureies*/
 
