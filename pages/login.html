@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +12,12 @@
 <body>
     <header>
         <div class="wrapper">
-            <a href="../index.html" id="logo_header">
+            <a href="index.html" id="logo_header">
                 <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
             <div id="filler"></div>
             <div id="buttons">
-                <a href="../pages/login.html">
+                <a href="./pages/login.html">
                     <div id="log" class="header_bttn">
                         <span class="span_buttons">Inloggen</span>
                     </div>
@@ -43,26 +42,43 @@
         </div>
     </div>
     </div>
-    <html>
-        <body>
-          <script src="https://accounts.google.com/gsi/client" async></script>
-          <div id="g_id_onload"
-              data-client_id="YOUR_GOOGLE_CLIENT_ID"
-              data-login_uri="https://your.domain/your_login_endpoint"
-              data-auto_prompt="false">
-          </div>
-          <div class="g_id_signin"
-              data-type="standard"
-              data-size="large"
-              data-theme="outline"
-              data-text="sign_in_with"
-              data-shape="rectangular"
-              data-logo_alignment="left">
-          </div>
-        <body>
-      </html>
-<!--Footer hier-->
-    <script src="../script/doneer.js"></script>
-</body>
 
-</html>
+        <a href="../db/test.php">klik op mij ofzo</a>
+        <form action="../db/request.php" method="POST">
+            <p>Voornaam</p>
+            <label for="voornaam"></label>
+            <input type="text" name="voornaam" id="voornaam" required placeholder="Jan">
+            <p>Tussenvoegsel</p>
+            <label for="tussenvoegsel"></label>
+            <input type="text" name="tussenvoegsel" placeholder="van der" id="tussenvoegsel">
+            <p>Achternaam</p>
+            <label for="achternaam"></label>
+            <input type="text" name="achternaam" id="achternaam" required placeholder="Sloot">
+            <p>Email-adres</p>
+            <label for="mailAdres"></label>
+            <input type="email" name="mailAdres" id="mailAdres" required placeholder="janvandersloot@gmail.com">
+            <p>Adres</p>
+            <label for="adres"></label>
+            <input type="text" name="adres" id="adres" required placeholder="Afrikaweg 25">
+            <p>Telefoonnummer</p>
+            <label for="telefoonNummer"></label>
+            <input type="tel" name="telefoonNummer" id="telefoonNummer" required placeholder="+06 52683893">
+            <p>Legitimatienummer</p>
+            <label for="legimatieNummer"></label>
+            <input type="number" name="legimatieNummer" id="legimatieNummer" required placeholder="BSN nummer"
+                maxlength="9" minlength="9">
+                <p>Wachtwoord</p>
+            <label for="wachtwoord"></label>
+            <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="wachtwoord123"
+                autocomplete="on" minlength="4" maxlength="15">
+            <input class="button" type="submit" value="Submit">
+        </form>
+
+        <body>
+
+            </html>
+            <!--Footer hier-->
+            <script src="../script/doneer.js"></script>
+        </body>
+
+        </html>
