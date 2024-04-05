@@ -46,7 +46,7 @@
     </div>
 
         <a href="../db/test.php">klik op mij ofzo</a>
-        <!-- <form action="../db/request.php" method="POST">
+        <form action="../db/request.php" method="POST">
             <label for="voornaam"></label>
             <input type="text" name="voornaam" id="voornaam" required placeholder="Jan">
             <label for="tussenvoegsel"></label>
@@ -68,7 +68,7 @@
             <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="Ik_ben_veilig123"
                 autocomplete="on" minlength="4" maxlength="15">
             <input type="submit" value="Submit">
-        </form> -->
+        </form>
 
         <body>
 
