@@ -38,11 +38,18 @@
     </div>
 
     <main>
-        <div id="menu"><!--Hier komen de filters enzovoorts---></div>
+        <div id="menu"></div>
         <div class="wrapper2">
-            <!--Hier alle Dierenkaarten, hieronder een voorbeeld.-->
             <div class="hyper">
-
+                <div class="overlay"></div>
+                <a class="dierLink">
+                    <img class="dierFoto">
+                    <div class="wrapper3">
+                        <h3 class="dierNaam"></h3>
+                        <p class="dierRas"></p>
+                        <p class="dierInfo"></p>
+                    </div>
+                </a>
             </div>
         </div>
     </main>
