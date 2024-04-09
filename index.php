@@ -16,9 +16,10 @@
     <header>
         <div class="wrapper">
             <a href="index.html" id="logo_header">
-                <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
+                <img src="media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
-            <div id="filler"></div>
+            <div id="filler">
+            </div>
             <div id="buttons">
                 <a href="./pages/login.html">
                     <div id="log" class="header_bttn">
@@ -47,27 +48,27 @@
     </div>
 
     <div class="tile-container">
-        <div class="tile" style="background-image: url('/media/img/AlleDieren.png');">
+        <div class="tile" style="background-image: url('media/img/AlleDieren.png');">
             <div class="tile-colour" id="tile1">
                 <div class="tile-text">Alle Dieren</div>
             </div>
         </div>
-        <div class="tile" style="background-image: url('/media/img/Honden.jpeg');">
+        <div class="tile" style="background-image: url('media/img/Honden.jpeg');">
             <div class="tile-colour" id="tile2">
                 <div class="tile-text">Honden</div>
             </div>
         </div>
-        <div class="tile" style="background-image: url('/media/img/Katten.jpeg');">
+        <div class="tile" style="background-image: url('media/img/Katten.jpeg');">
             <div class="tile-colour" id="tile3">
                 <div class="tile-text">Katten</div>
             </div>
         </div>
-        <div class="tile" style="background-image: url('/media/img/Vogel.jpeg');">
+        <div class="tile" style="background-image: url('media/img/Vogel.jpeg');">
             <div class="tile-colour" id="tile4">
                 <div class="tile-text">Vogels</div>
             </div>
         </div>
-        <div class="tile" style="background-image: url('/media/img/Konijnen.jpeg');">
+        <div class="tile" style="background-image: url('media/img/Konijnen.jpeg');">
             <div class="tile-colour" id="tile5">
                 <div class="tile-text">Konijnen</div>
             </div>
@@ -84,19 +85,19 @@
         <div class="footer_cont" id="footer_main2">
             <div class="footer_img">
                 <a href="https://www.postcodeloterij.nl" target="_blank">
-                    <img src="/media/img/PostcodeLoterij.png" alt="PostcodeLoterij" width="64px" height="42px">
+                    <img src="media/img/PostcodeLoterij.png" alt="PostcodeLoterij" width="64px" height="42px">
                 </a>
                 <a href="https://www.playstation.com/en-us/" target="_blank">
-                    <img src="/media/img/Playstation.png" alt="Playstation" width="60px" height="42px">
+                    <img src="media/img/Playstation.png" alt="Playstation" width="60px" height="42px">
                 </a>
                 <a href="https://www.bp.com/" target="_blank">
-                    <img src="/media/img/bp.png" alt="Shell" width="60px" height="80px">
+                    <img src="media/img/bp.png" alt="Shell" width="60px" height="80px">
                 </a>
                 <a href="https://www.remarms.com/" target="_blank">
-                    <img src="/media/img/REM-L.png" alt="Shell" width="150px" height="80px">
+                    <img src="media/img/REM-L.png" alt="Shell" width="150px" height="80px">
                 </a>
                 <a href="https://gta.fandom.com/wiki/Los_Santos_Customs" target="_blank">
-                    <img src="/media/img/LosSantosCustoms.webp" alt="Shell" width="150px" height="80px">
+                    <img src="media/img/LosSantosCustoms.webp" alt="Shell" width="150px" height="80px">
                 </a>
             </div>
         </div>
