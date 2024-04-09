@@ -1,10 +1,9 @@
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dierenasiel</title>
-    <link rel="stylesheet" href="../style/Dierenkaart.css">
-    <link rel="stylesheet" href="../style/site.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dierenasiel</title>
+<link rel="stylesheet" href="../style/Dierenkaart.css">
+<link rel="stylesheet" href="../style/site.css">
 
 <body>
     <header>
@@ -39,17 +38,236 @@
 
     <main>
         <div id="menu"></div>
-        <div class="wrapper2">
-            <div class="hyper">
-                <div class="overlay"></div>
-                <a class="dierLink">
-                    <img class="dierFoto">
-                    <div class="wrapper3">
-                        <h3 class="dierNaam"></h3>
-                        <p class="dierRas"></p>
-                        <p class="dierInfo"></p>
-                    </div>
-                </a>
+        <div id="selectie">
+            <div class="wrapper2">
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper2">
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper2">
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper2">
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper2">
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="hyper">
+                    <div class="overlay"></div>
+                    <a class="dierLink">
+                        <img class="dierFoto">
+                        <div class="wrapper3">
+                            <h3 class="dierNaam"></h3>
+                            <p class="dierRas"></p>
+                            <p class="dierInfo"></p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </main>
