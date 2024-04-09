@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dierenasiel</title>
-    
-    <link rel="stylesheet" href="./style/site.css">    
+
+    <link rel="stylesheet" href="./style/site.css">
     <link rel="stylesheet" href="./style/style.css">
 
 </head>
@@ -15,10 +15,14 @@
 <body>
     <header>
         <div class="wrapper">
-            <a href="index.html" id="logo_header">
+            <a href="index.php" id="logo_header">
                 <img src="media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
-            <div id="filler">
+            <div id="menuWrapper">
+                        <a class="active" href="index.php">Hoofdpagina</a>
+                        <a href="pages/about_us.html">Over Ons</a>
+                        <a href="pages/dierenkaart.php">Dierenkaart</a>
+                        <a href="pages/klantenkaart.php">Klantenkaart</a>
             </div>
             <div id="buttons">
                 <a href="./pages/login.html">
@@ -77,8 +81,8 @@
 
     <div id="footer">
         <div class="footer_links">
-            <a href="index.html">Hoofdpagina</a>
-            <a href="./pages/about_us.html">Over ons</a>
+            <a class="policy" href="pages/policy.html">Privacy Policy</a>
+            <a class="terms" href="pages/terms.html">Terms & Conditions</a>
             <!--- Voeg hier meer links toe naarmate het nodig is --->
         </div>
         <div class="filler3"></div>

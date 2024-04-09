@@ -6,16 +6,21 @@ body {
     user-select: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
 header {
     position: fixed;
-    z-index: 2  ;
+    z-index: 2;
     height: 10.5vh;
     box-shadow: 1px -5px 20px black;
-    background-color:rgba(255, 250, 250, 0.635);
+    background-color: rgba(255, 250, 250, 0.635);
     width: 100vw;
 }
 
@@ -26,8 +31,8 @@ header {
     background-position: center;
     width: 100vw;
     display: flex;
-    height: 65vh; 
-    overflow: hidden; 
+    height: 65vh;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
 }
@@ -38,8 +43,18 @@ header {
     display: flex;
 }
 
-#filler {
+#menuWrapper {
+    font-size: 18px;
     width: 55%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a:hover{
+    font-size: 35px;
 }
 
 #logo_header {
@@ -70,6 +85,8 @@ header {
     justify-content: center;
     align-items: center;
     font-weight: bolder;
+    color: white;
+    text-shadow: none;
 }
 
 .span_buttons {
@@ -88,7 +105,14 @@ header {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: white;
+    text-shadow:
+        1px 1px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+    transition: all 0.5s;
 }
 
 /*Footer*/
@@ -101,39 +125,48 @@ a {
     margin-top: 20vh;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: flex-end; 
+    align-items: center;
+    justify-content: flex-end;
     box-shadow: 1px -5px 20px black;
-    text-align: center; 
+    text-align: center;
 }
+
 .footer_cont {
-    margin: 10px; 
-    text-align: center; 
+    margin: 10px;
+    text-align: center;
 }
 
 
 .footer_cont a {
-    margin: 0 20px; 
+    margin: 0 20px;
 }
 
 .footer_links {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    text-shadow: none;
 }
 
 .footer_links a {
     text-decoration: none;
     color: black;
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
 .footer_links a {
     text-decoration: none;
     color: black;
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
-#footer > * {
+#footer>* {
     height: inherit;
+}
+.policy{
+    text-shadow: none;
+}
+
+.terms{
+    text-shadow: none;
 }
 
 .filler3 {
@@ -148,7 +181,7 @@ a {
     transform: translate(-50%, -50%);
     z-index: 9999;
     border: none;
-    
+
 }
 
 .donation-wrapper {
@@ -216,14 +249,16 @@ a {
 }
 
 /*Media Querry*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     #buttons {
-      flex-direction: column;
+        flex-direction: column;
     }
+
     .span_buttons {
-      font-size: 3vw;
+        font-size: 3vw;
     }
+
     body {
         overflow-x: hidden;
     }
-  }
+}

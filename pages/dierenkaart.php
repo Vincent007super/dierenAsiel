@@ -8,11 +8,6 @@
 
 <body>
     <header>
-        <div class="wrapper">
-            <a href="../index.html" id="logo_header">
-                <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
-            </a>
-            <div id="filler"></div>
             <div id="buttons">
                 <a href="login.html">
                     <div id="log" class="header_bttn">
@@ -56,8 +51,8 @@
 
     <div id="footer">
         <div class="footer_links">
-            <a href="../index.html">Hoofdpagina</a>
-            <a href="about_us.html">Over ons</a>
+            <a class="policy" href="policy.html">Privacy Policy</a>
+            <a class="terms" href="terms.html">Terms & Conditions</a>
             <!--- Voeg hier meer links toe naarmate het nodig is --->
         </div>
         <div class="filler3"></div>
