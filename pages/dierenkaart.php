@@ -6,9 +6,19 @@
 <link rel="stylesheet" href="../style/site.css">
 
 <body>
-    <header>
+<header>
+        <div class="wrapper">
+            <a href="../index.php" id="logo_header">
+            <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
+            </a>
+            <div id="menuWrapper">
+            <a href="../index.php">Hoofdpagina</a>
+                        <a href="about_us.html">Over Ons</a>
+                        <a class="active" href="dierenkaart.php">Dierenkaart</a>
+                        <a href="klantenkaart.php">Klantenkaart</a>
+            </div>
             <div id="buttons">
-                <a href="login.html">
+                <a href="login.php">
                     <div id="log" class="header_bttn">
                         <span class="span_buttons">Inloggen</span>
                     </div>
@@ -276,7 +286,7 @@
         <div class="filler3"></div>
         <div class="footer_cont" id="footer_main2">
             <div class="footer_img">
-                <a href="https://www.postcodeloterij.nl" target="_blank">
+                <a href="https://www.postcodeloterij.nl/goede-doelen/overzicht/dierenbescherming" target="_blank">
                     <img src="../media/img/PostcodeLoterij.png" alt="PostcodeLoterij" width="64px" height="42px">
                 </a>
                 <a href="https://www.playstation.com/en-us/" target="_blank">

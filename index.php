@@ -25,7 +25,7 @@
                         <a href="pages/klantenkaart.php">Klantenkaart</a>
             </div>
             <div id="buttons">
-                <a href="./pages/login.html">
+                <a href="pages/login.php">
                     <div id="log" class="header_bttn">
                         <span class="span_buttons">Inloggen</span>
                     </div>
@@ -88,7 +88,7 @@
         <div class="filler3"></div>
         <div class="footer_cont" id="footer_main2">
             <div class="footer_img">
-                <a href="https://www.postcodeloterij.nl" target="_blank">
+                <a href="https://www.postcodeloterij.nl/goede-doelen/overzicht/dierenbescherming" target="_blank">
                     <img src="media/img/PostcodeLoterij.png" alt="PostcodeLoterij" width="64px" height="42px">
                 </a>
                 <a href="https://www.playstation.com/en-us/" target="_blank">

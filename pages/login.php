@@ -11,14 +11,19 @@
 </head>
 
 <body>
-    <header>
+<header>
         <div class="wrapper">
-            <a href="index.html" id="logo_header">
-                <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
+            <a href="../index.php" id="logo_header">
+            <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
-            <div id="filler"></div>
+            <div id="menuWrapper">
+                        <a href="../index.php">Hoofdpagina</a>
+                        <a href="about_us.html">Over Ons</a>
+                        <a class="active" href="dierenkaart.php">Dierenkaart</a>
+                        <a href="klantenkaart.php">Klantenkaart</a>
+            </div>
             <div id="buttons">
-                <a href="./pages/login.html">
+                <a href="login.php">
                     <div id="log" class="header_bttn">
                         <span class="span_buttons">Inloggen</span>
                     </div>
@@ -45,7 +50,7 @@
     </div>
 
         <a href="../db/test.php">klik op mij ofzo</a>
-        <form action="../db/request.php" method="POST">
+        <form action="klantenkaart.php" method="POST">  
             <p>Voornaam</p>
             <label for="voornaam"></label>
             <input type="text" name="voornaam" id="voornaam" required placeholder="Jan">
@@ -73,9 +78,31 @@
             <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="wachtwoord123"
                 autocomplete="on" minlength="4" maxlength="15">
             <input class="button" type="submit" value="Submit">
-        </form>
+            <input type="hidden" name="submitted" value="true">
 
-        <body>
+        </form>
+        <?php
+if (isset($_POST['submitted'])) {
+    $voornaam = $_POST['voornaam'];
+    $tussenvoegsel = $_POST['tussenvoegsel'];
+    $achternaam = $_POST['achternaam'];
+    $email = $_POST['mailAdres'];
+    $adres = $_POST['adres'];
+    $telefoonnummer = $_POST['telefoonNummer'];
+    $legitimatienummer = $_POST['legimatieNummer'];
+    $wachtwoord = $_POST['wachtwoord'];
+
+    echo "<p>Voornaam: $voornaam</p>";
+    echo "<p>Tussenvoegsel: $tussenvoegsel</p>";
+    echo "<p>Achternaam: $achternaam</p>";
+    echo "<p>Email-adres: $email</p>";
+    echo "<p>Adres: $adres</p>";
+    echo "<p>Telefoonnummer: $telefoonnummer</p>";
+    echo "<p>Legitimatienummer: $legitimatienummer</p>";
+    echo "<p>Wachtwoord: $wachtwoord</p>";
+}
+?>
+
 
             </html>
             <!--Footer hier-->
