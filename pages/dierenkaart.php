@@ -10,7 +10,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }   
 
-$sql = "SELECT * FROM Dierenkaart"; // Assuming 'Dierenkaart' is the name of your table
+$sql = "SELECT * FROM Dierenkaart"; 
 $result = $conn->query($sql);
 
 $data = array();
@@ -67,11 +67,12 @@ $conn->close();
                     <div class="hyper">
                         <div class="overlay"></div>
                         <a class="dierLink">
-                            <img class="dierFoto">
+                            <img class="dierFoto" src="<?php echo $item['Foto']; ?>">
                             <div class="wrapper3">
-                                <h3 class="dierNaam"><?php echo $item['Naam']; ?></h3>
+                                <h3 class="dierSoort"><?php echo $item['Soort']; ?></h3>
                                 <p class="dierRas"><?php echo $item['Ras']; ?></p>
-                                <p class="dierInfo"><?php echo $item['Info']; ?></p>
+                                <p class="dierKleur"><?php echo $item['Kleur']; ?></p>
+                                <p class="dierGeslacht"><?php echo $item['Geslacht']; ?></p>
                             </div>
                         </a>
                     </div>
@@ -98,5 +99,19 @@ $conn->close();
         <div class="filler3"></div>
     </div>
     <script src="../script/doneer.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var dierGeslacht = document.querySelectorAll('.dierGeslacht');
+
+            dierGeslacht.forEach(function(element) {
+                var geslacht = element.textContent;
+                if (geslacht === 'M') {
+                    element.style.color = 'blue';
+                } else if (geslacht === 'V') {
+                    element.style.color = 'pink';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
