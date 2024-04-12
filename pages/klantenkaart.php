@@ -11,33 +11,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <a href="../index.php" id="logo_header">
-                <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
-            </a>
-            <div id="menuWrapper">
-            <a href="../index.php">Hoofdpagina</a>
-                <a href="about_us.html">Over Ons</a>
-                <a class="active" href="dierenkaart.php?soort=alle">Dierenkaart</a>
-                <a href="klantenkaart.php">Klantenkaart</a>
-            </div>
-            <div id="buttons">
-                <a href="login.php">
-                    <div id="log" class="header_bttn">
-                        <span class="span_buttons">Inloggen</span>
-                    </div>
-                </a>
-                <div onclick="doneer()">
-                    <div id="don" class="header_bttn">
-                        <span class="span_buttons">Doneren</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-   
-    <div class="formulier"> 
+    <div class="formulier">
+        <h1 class="txt1">Zijn alle gegeves juist?</h1>
         <form action="klantenkaart.php" method="POST">
             <p>Voornaam</p>
             <input type="text" name="voornaam" id="voornaam" required placeholder="Jan"
@@ -61,42 +36,28 @@
             <input type="number" name="legimatieNummer" id="legimatieNummer" required placeholder="BSN nummer"
                 maxlength="9" minlength="9"
                 value="<?php echo isset($_POST['legimatieNummer']) ? $_POST['legimatieNummer'] : ''; ?>" readonly>
-                <p>Wachtwoord</p>
-<input type="password" name="wachtwoord" id="wachtwoord" required placeholder="wachtwoord123"
-    autocomplete="on" minlength="4" maxlength="15" readonly value="<?php echo str_repeat('*', strlen($_POST['wachtwoord'])); ?>">
+            <p>Wachtwoord</p>
+            <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="wachtwoord123"
+                autocomplete="on" minlength="4" maxlength="15" readonly
+                value="<?php echo str_repeat('*', strlen($_POST['wachtwoord'])); ?>">
             <input type="hidden" name="submitted" value="true">
     </div>
     </form>
-
-    <div id="footer">
-        <div class="footer_links">
-            <a class="policy" href="policy.html">Privacy Policy</a>
-            <a class="terms" href="terms.html">Terms & Conditions</a>
-            <!--- Voeg hier meer links toe naarmate het nodig is --->
-        </div>
-        <div class="filler3"></div>
-        <div class="footer_cont" id="footer_main2">
-            <div class="footer_img">
-                <a href="https://www.postcodeloterij.nl/goede-doelen/overzicht/dierenbescherming" target="_blank">
-                    <img src="../media/img/PostcodeLoterij.png" alt="PostcodeLoterij" width="64px" height="42px">
-                </a>
-                <a href="https://www.playstation.com/en-us/" target="_blank">
-                    <img src="../media/img/Playstation.png" alt="Playstation" width="60px" height="42px">
-                </a>
-                <a href="https://www.bp.com/" target="_blank">
-                    <img src="../media/img/bp.png" alt="Shell" width="60px" height="80px">
-                </a>
-                <a href="https://www.remarms.com/" target="_blank">
-                    <img src="../media/img/REM-L.png" alt="Shell" width="150px" height="80px">
-                </a>
-                <a href="https://gta.fandom.com/wiki/Los_Santos_Customs" target="_blank">
-                    <img src="../media/img/LosSantosCustoms.webp" alt="Shell" width="150px" height="80px">
-                </a>
-            </div>
-        </div>
-        <div class="filler3"></div>
+    <div class="wrapper1">
+        <button class="button1" onclick="redirectToPage1()">Ja</button>
+        <button class="button2" onclick="redirectToPage2()">Nee</button>
     </div>
 
+
+    <script>
+    function redirectToPage1() {
+        window.location.href = "../index.php";
+    }
+
+    function redirectToPage2() {
+        window.location.href = "login.php";
+    }
+    </script>
 </body>
 
 </html>

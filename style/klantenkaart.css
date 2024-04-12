@@ -1,24 +1,34 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 header {
-    height: 5vh !important;
+  height: 5vh !important;
 }
 
 .span_buttons { 
-    font-size: 1vw !important;
+  font-size: 1vw !important;
+}
+
+.txt1 {
+  color: black;
 }
 
 form {
-    position: absolute;
-    top: 48.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%; 
-    background-color: white;
-    padding: 20px;
-    box-sizing: border-box; 
-    background-color: rgba(198, 147, 203, 0.2);
-    border-radius: 5px;
+  position: absolute;
+  top: 48.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%; 
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box; 
+  background-color: rgba(198, 147, 203, 0.2);
+  border-radius: 5px;
 }
-input[type=text], input[type=email], input[type=tel] , input[type=number] , input[type=password] {
+
+input[type=text], input[type=email], input[type=tel], input[type=number], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 3px 0;
@@ -26,33 +36,57 @@ input[type=text], input[type=email], input[type=tel] , input[type=number] , inpu
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-.button-container {
-    text-align: center; 
+
+.wrapper1 {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  bottom: 5vh;
+  width: 100vw;
 }
 
-.button {
-    background-color: rgb(128, 202, 212); 
-    color: black;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    text-align: center;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-    border-radius: 5px;
+button {
+  width: 4.5vw;
+  height: 5vh;
+  font-size: x-large;
 }
-.button:hover {
-    opacity: 0.8;
-  }
-  
-  p{
-    color:rgb(128, 202, 212);  ;
-  }
 
-  .formulier{
-    display: flex;
-    height: 72vh;
-  }
+.button1 {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button2 {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+  opacity: 0.8;
+}
+
+.button2:hover {
+  opacity: 0.8;
+}
+
+p {
+  color: rgba(128, 202, 212); 
+}
+
+.formulier {
+  display: flex;
+  height: 72vh;
+  justify-content: center;
+}

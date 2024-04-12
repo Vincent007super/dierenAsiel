@@ -104,7 +104,7 @@ if (isset($_POST['submitted'])) {
 
             </html>
             <!--Footer hier-->
-            <script src="../script/doneer.js"></script>
+            <script src="./script/doneer.js"></script>
         </body>
 
         </html>
