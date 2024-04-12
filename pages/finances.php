@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="wrapper">
-            <a href="../index.html" id="logo_header">
+            <a href="../index.php" id="logo_header">
                 <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
             <div id="filler"></div>
