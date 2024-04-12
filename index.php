@@ -19,10 +19,10 @@
                 <img src="media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
             <div id="menuWrapper">
-                        <a class="active" href="index.php">Hoofdpagina</a>
-                        <a href="pages/about_us.html">Over Ons</a>
-                        <a href="pages/dierenkaart.php">Dierenkaart</a>
-                        <a href="pages/klantenkaart.php">Klantenkaart</a>
+                <a class="active" href="index.php">Hoofdpagina</a>
+                <a href="pages/about_us.html">Over Ons</a>
+                <a href="pages/dierenkaart.php">Dierenkaart</a>
+                <a href="pages/klantenkaart.php">Klantenkaart</a>
             </div>
             <div id="buttons">
                 <a href="pages/login.php">
@@ -52,32 +52,33 @@
     </div>
 
     <div class="tile-container">
-        <div class="tile" style="background-image: url('media/img/AlleDieren.png');">
-            <div class="tile-colour" id="tile1">
-                <div class="tile-text">Alle Dieren</div>
-            </div>
+    <a class="tile" style="background-image: url('media/img/AlleDieren.png');" href="pages/dierenkaart.php?soort=alle">
+        <div class="tile-colour" id="tile1">
+            <div class="tile-text">Alle Dieren</div>
         </div>
-        <div class="tile" style="background-image: url('media/img/Honden.jpeg');">
-            <div class="tile-colour" id="tile2">
-                <div class="tile-text">Honden</div>
-            </div>
+    </a>
+    <a class="tile" style="background-image: url('media/img/Honden.jpeg');" href="pages/dierenkaart.php?soort=Hond">
+        <div class="tile-colour" id="tile2">
+            <div class="tile-text">Honden</div>
         </div>
-        <div class="tile" style="background-image: url('media/img/Katten.jpeg');">
-            <div class="tile-colour" id="tile3">
-                <div class="tile-text">Katten</div>
-            </div>
+    </a>
+    <a class="tile" style="background-image: url('media/img/Katten.jpeg');" href="pages/dierenkaart.php?soort=Kat">
+        <div class="tile-colour" id="tile3">
+            <div class="tile-text">Katten</div>
         </div>
-        <div class="tile" style="background-image: url('media/img/Vogel.jpeg');">
-            <div class="tile-colour" id="tile4">
-                <div class="tile-text">Vogels</div>
-            </div>
+    </a>
+    <a class="tile" style="background-image: url('media/img/Vogel.jpeg');" href="pages/dierenkaart.php?soort=Vogel">
+        <div class="tile-colour" id="tile4">
+            <div class="tile-text">Vogels</div>
         </div>
-        <div class="tile" style="background-image: url('media/img/Konijnen.jpeg');">
-            <div class="tile-colour" id="tile5">
-                <div class="tile-text">Konijnen</div>
-            </div>
+    </a>
+    <a class="tile" style="background-image: url('media/img/Konijnen.jpeg');" href="pages/dierenkaart.php?soort=Konijn">
+        <div class="tile-colour" id="tile5">
+            <div class="tile-text">Konijnen</div>
         </div>
-    </div>
+    </a>
+</div>
+
 
     <div id="footer">
         <div class="footer_links">

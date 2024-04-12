@@ -10,7 +10,15 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }   
 
-$sql = "SELECT * FROM Dierenkaart"; 
+$soort = isset($_GET['soort']) ? $_GET['soort'] : '';
+
+// Aanpassen van de SQL-query op basis van de geselecteerde soort
+if ($soort == 'alle') {
+    $sql = "SELECT * FROM Dierenkaart";
+} else {
+    $sql = "SELECT * FROM Dierenkaart WHERE Soort = '$soort'";
+}
+
 $result = $conn->query($sql);
 
 $data = array();
@@ -69,7 +77,6 @@ $conn->close();
         </div>
     </div>
     <main>
-    <div id="menu"></div>
     <div id="selectie">
         <?php
         $count = 0; 
