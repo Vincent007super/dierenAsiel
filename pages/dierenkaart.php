@@ -67,7 +67,7 @@ $conn->close();
                     <div class="hyper">
                         <div class="overlay"></div>
                         <a class="dierLink">
-                            <img class="dierFoto" src="<?php echo $item['Foto']; ?>">
+                            <img class="dierFoto" src="../media/dieren/<?php echo $item['Foto']; ?>">
                             <div class="wrapper3">
                                 <h3 class="dierSoort"><?php echo $item['Soort']; ?></h3>
                                 <p class="dierRas"><?php echo $item['Ras']; ?></p>
