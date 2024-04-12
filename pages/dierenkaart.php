@@ -35,16 +35,27 @@ $conn->close();
     <link rel="stylesheet" href="../style/site.css">
 </head>
 <body>
-    <header>
-        <div id="buttons">
-            <a href="login.html">
-                <div id="log" class="header_bttn">
-                    <span class="span_buttons">Inloggen</span>
-                </div>
+<header>
+        <div class="wrapper">
+            <a href="../index.php" id="logo_header">
+                <img src="../media/img/Logo.png" alt="Logo Pootjesparadijs" id="logo">
             </a>
-            <div onclick="doneer()">
-                <div id="don" class="header_bttn">
-                    <span class="span_buttons">Doneren</span>
+            <div id="menuWrapper">
+            <a href="../index.php">Hoofdpagina</a>
+                <a href="about_us.html">Over Ons</a>
+                <a class="active" href="dierenkaart.php">Dierenkaart</a>
+                <a href="klantenkaart.php">Klantenkaart</a>
+            </div>
+            <div id="buttons">
+                <a href="login.php">
+                    <div id="log" class="header_bttn">
+                        <span class="span_buttons">Inloggen</span>
+                    </div>
+                </a>
+                <div onclick="doneer()">
+                    <div id="don" class="header_bttn">
+                        <span class="span_buttons">Doneren</span>
+                    </div>
                 </div>
             </div>
         </div>
