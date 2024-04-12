@@ -39,7 +39,6 @@
    
     <div class="formulier"> 
         <form action="klantenkaart.php" method="POST">
-        <h1>Zijn deze gegevens correct ingevuld?</h1>
             <p>Voornaam</p>
             <input type="text" name="voornaam" id="voornaam" required placeholder="Jan"
                 value="<?php echo isset($_POST['voornaam']) ? $_POST['voornaam'] : ''; ?>" readonly>

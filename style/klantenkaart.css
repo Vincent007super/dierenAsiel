@@ -17,7 +17,6 @@ form {
     box-sizing: border-box; 
     background-color: rgba(198, 147, 203, 0.2);
     border-radius: 5px;
-    height: 40vh;
 }
 input[type=text], input[type=email], input[type=tel] , input[type=number] , input[type=password] {
   width: 100%;
