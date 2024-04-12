@@ -51,7 +51,7 @@ $conn->close();
             <div id="menuWrapper">
             <a href="../index.php">Hoofdpagina</a>
                 <a href="about_us.html">Over Ons</a>
-                <a class="active" href="dierenkaart.php">Dierenkaart</a>
+                <a class="active" href="dierenkaart.php?soort=alle">Dierenkaart</a>
                 <a href="klantenkaart.php">Klantenkaart</a>
             </div>
             <div id="buttons">
@@ -113,18 +113,30 @@ $conn->close();
     </div>
 </main>
 
-    <div id="footer">
+<div id="footer">
         <div class="footer_links">
             <a class="policy" href="policy.html">Privacy Policy</a>
             <a class="terms" href="terms.html">Terms & Conditions</a>
+            <!--- Voeg hier meer links toe naarmate het nodig is --->
         </div>
         <div class="filler3"></div>
         <div class="footer_cont" id="footer_main2">
             <div class="footer_img">
-                <a href="https://www.postcodeloterij.nl" target="_blank">
+                <a href="https://www.postcodeloterij.nl/goede-doelen/overzicht/dierenbescherming" target="_blank">
                     <img src="../media/img/PostcodeLoterij.png" alt="PostcodeLoterij" width="64px" height="42px">
                 </a>
-                <!-- Add other footer links -->
+                <a href="https://www.playstation.com/en-us/" target="_blank">
+                    <img src="../media/img/Playstation.png" alt="Playstation" width="60px" height="42px">
+                </a>
+                <a href="https://www.bp.com/" target="_blank">
+                    <img src="../media/img/bp.png" alt="Shell" width="60px" height="80px">
+                </a>
+                <a href="https://www.remarms.com/" target="_blank">
+                    <img src="../media/img/REM-L.png" alt="Shell" width="150px" height="80px">
+                </a>
+                <a href="https://gta.fandom.com/wiki/Los_Santos_Customs" target="_blank">
+                    <img src="../media/img/LosSantosCustoms.webp" alt="Shell" width="150px" height="80px">
+                </a>
             </div>
         </div>
         <div class="filler3"></div>
