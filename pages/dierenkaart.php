@@ -69,30 +69,43 @@ $conn->close();
         </div>
     </div>
     <main>
-        <div id="menu"></div>
-        <div id="selectie">
-            <?php
-            foreach ($data as $item) {
-                ?>
-                <div class="wrapper2">
-                    <div class="hyper">
-                        <div class="overlay"></div>
-                        <a class="dierLink">
-                            <img class="dierFoto" src="../media/dieren/<?php echo $item['Foto']; ?>">
-                            <div class="wrapper3">
-                                <h3 class="dierSoort"><?php echo $item['Soort']; ?></h3>
-                                <p class="dierRas"><?php echo $item['Ras']; ?></p>
-                                <p class="dierKleur"><?php echo $item['Kleur']; ?></p>
-                                <p class="dierGeslacht"><?php echo $item['Geslacht']; ?></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <?php
+    <div id="menu"></div>
+    <div id="selectie">
+        <?php
+        $count = 0; 
+
+        foreach ($data as $item) {
+            if ($count % 4 == 0) { 
+                echo '<div class="wrapper2">';
             }
             ?>
-        </div>
-    </main>
+            <div class="hyper">
+                <div class="overlay"></div>
+                <a class="dierLink">
+                    <img class="dierFoto" src="../media/dieren/<?php echo $item['Foto']; ?>">
+                    <div class="wrapper3">
+                        <h3 class="dierSoort"><?php echo $item['Soort']; ?></h3>
+                        <p class="dierRas"><?php echo $item['Ras']; ?></p>
+                        <p class="dierKleur"><?php echo $item['Kleur']; ?></p>
+                        <p class="dierGeslacht"><?php echo $item['Geslacht']; ?></p>
+                    </div>
+                </a>
+            </div>
+            <?php
+            $count++; 
+
+            if ($count % 4 == 0) { 
+                echo '</div>';
+            }
+        }
+
+        if ($count % 4 != 0) {
+            echo '</div>';
+        }
+        ?>
+    </div>
+</main>
+
     <div id="footer">
         <div class="footer_links">
             <a class="policy" href="policy.html">Privacy Policy</a>
