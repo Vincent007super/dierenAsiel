@@ -22,7 +22,6 @@
                 <a class="active" href="index.php">Hoofdpagina</a>
                 <a href="pages/about_us.html">Over Ons</a>
                 <a href="pages/dierenkaart.php?soort=alle">Dierenkaart</a>
-                <a href="pages/klantenkaart.php">Klantenkaart</a>
             </div>
             <div id="buttons">
                 <a href="pages/login.php">
