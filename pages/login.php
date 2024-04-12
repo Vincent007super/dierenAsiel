@@ -48,8 +48,6 @@
         </div>
     </div>
     </div>
-
-        <a href="../db/test.php">klik op mij ofzo</a>
         <form action="klantenkaart.php" method="POST">  
             <p>Voornaam</p>
             <label for="voornaam"></label>
