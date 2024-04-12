@@ -1,7 +1,11 @@
 function doneer() {
+    // Show the overlay
+    document.querySelector('.overlay').classList.add('show-overlay');
+
     // Create the donation prompt HTML structure
     let donationPrompt = `
     <div id="donate">
+        <button id="closeBtn" onclick="closeDonationPrompt()">X</button>
         <div class="donation-wrapper">
             <h1>Bedankt dat je wilt doneren!</h1>
             <h2>Hoeveel wilt u doneren?</h2>
@@ -32,8 +36,16 @@ function donateAmount(amount) {
     let selectedOption = document.getElementById(amount + 'euro');
     selectedOption.classList.add('don_select');
 
-    // Optionally, hide the donation prompt after a selection is made
+    // Hide the overlay and donation prompt after a selection is made
+    closeDonationPrompt();
+    window.alert("Bedankt voor uw donatie!");
+}
+
+function closeDonationPrompt() {
+    // Hide the overlay
+    document.querySelector('.overlay').classList.remove('show-overlay');
+
+    // Remove the donation prompt from the DOM
     let donateDiv = document.getElementById('donate');
-    window.alert("Bedankt voor uw donatie!")
-    donateDiv.style.display = 'none';
+    donateDiv.remove();
 }
