@@ -8,7 +8,7 @@
     <title>Finances page</title>
     <link rel="stylesheet" href="../style/finance.css">
     <link rel="stylesheet" href="../style/site.css">
-
+    <link rel="icon" href="../media/img/Logo.png" type="image/x-icon">
 </head>
 
 <body>

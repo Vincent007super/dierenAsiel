@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="./style/site.css">
     <link rel="stylesheet" href="./style/style.css">
-
+    <link rel="icon" href="media/img/Logo.png" type="image/x-icon">
 </head>
 
 <body>

@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../style/site.css">
     <link rel="stylesheet" href="../style/klantenkaart.css">
+    <link rel="icon" href="../media/img/Logo.png" type="image/x-icon">
 </head>
 
 <body>
