@@ -61,7 +61,9 @@
             <input type="number" name="legimatieNummer" id="legimatieNummer" required placeholder="BSN nummer"
                 maxlength="9" minlength="9"
                 value="<?php echo isset($_POST['legimatieNummer']) ? $_POST['legimatieNummer'] : ''; ?>" readonly>
-            <p>Het wachtwoord kan niet worden ingeladen vanwege privacy...</p>
+                <p>Wachtwoord</p>
+            <input type="password" name="wachtwoord" id="wachtwoord" required placeholder="wachtwoord123"
+                autocomplete="on" minlength="4" maxlength="15" readonly>
             <input type="hidden" name="submitted" value="true">
     </div>
     </form>
