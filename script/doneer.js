@@ -1,6 +1,5 @@
 function doneer() {
     // Show the overlay
-    document.querySelector('.overlay').classList.add('show-overlay');
 
     // Create the donation prompt HTML structure
     let donationPrompt = `
@@ -43,7 +42,6 @@ function donateAmount(amount) {
 
 function closeDonationPrompt() {
     // Hide the overlay
-    document.querySelector('.overlay').classList.remove('show-overlay');
 
     // Remove the donation prompt from the DOM
     let donateDiv = document.getElementById('donate');
